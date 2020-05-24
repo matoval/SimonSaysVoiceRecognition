@@ -56,9 +56,7 @@ function startGame() {
       .map(result => result[0])
       .map(result => result.transcript)
       let voiceAnswersArr = voiceAnswers[0]
-      console.log(voiceAnswersArr)
       voiceAnswersArr = voiceAnswersArr.split(' ')
-      console.log(voiceAnswersArr)
       if (voiceAnswersArr.length >= gameArr.length) {
         for (const color of voiceAnswersArr) {
           console.log(color)

@@ -82,7 +82,7 @@ body {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   text-align: center;
   z-index: 3;
   background-color: rgba(0, 0, 0, 0.5);
@@ -101,7 +101,7 @@ body {
 
 #start-btn {
   border: none;
-  background-color: rgb(253, 161, 161);
+  background-color: rgb(161, 216, 253);
   font-weight: bold;
   padding: 5px;
   border-radius: 5px;
@@ -111,4 +111,16 @@ body {
 #modal-message {
   color: black;
   font-weight: bold;
+}
+
+#voice-toggle-label {
+  position: fixed;
+  top:40vh;
+  left: 2vw;
+  z-index: 2;
+  font-weight: bold;
+  background-color: rgb(161, 216, 253);
+  border: none;
+  border-radius: 5px;
+  padding: 3px;
 }

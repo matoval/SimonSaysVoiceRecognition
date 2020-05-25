@@ -59,7 +59,6 @@ function startGame() {
       voiceAnswersArr = voiceAnswersArr.split(' ')
       if (voiceAnswersArr.length >= gameArr.length) {
         for (const color of voiceAnswersArr) {
-          console.log(color)
           if (color === 'yellow'){
             playerArr.push(1)
           } else if (color === 'red') {
@@ -67,7 +66,6 @@ function startGame() {
           } else if (color === 'blue') {
             playerArr.push(3)
           } else {
-            console.log(color)
             modalMessage.innerText = 'I\'m sorry I didn\'t understand that.'
             modalMenu()
           }
@@ -120,6 +118,3 @@ function startGame() {
     
   }
 }
-
-
-
